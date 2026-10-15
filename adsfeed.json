@@ -1,0 +1,60 @@
+{
+  "page": {
+    "title": "ADsFeed"
+  },
+
+  "header": {
+    "brand": "ADsFeed",
+    "label": "SYSTEM FEED"
+  },
+
+  "feed": {
+    "label": "ACTIVITY",
+    "title": "Feed",
+    "description": "Information, warnings and errors."
+  },
+
+  "types": {
+    "info": "INFO",
+    "warning": "WARNING",
+    "error": "ERROR"
+  },
+
+  "messages": [
+    {
+      "id": "system-online",
+      "type": "info",
+      "title": "System Online",
+      "message": "All services are currently operating normally.",
+      "time": "Now"
+    },
+
+    {
+      "id": "scheduled-maintenance",
+      "type": "warning",
+      "title": "Scheduled Maintenance",
+      "message": "Some services may become temporarily unavailable during maintenance.",
+      "time": "Today"
+    },
+
+    {
+      "id": "service-error",
+      "type": "error",
+      "title": "Service Error",
+      "message": "A service failed to respond to the latest request.",
+      "time": "Earlier"
+    },
+
+    {
+      "id": "deployment-complete",
+      "type": "info",
+      "title": "Deployment Complete",
+      "message": "The latest application version was deployed successfully.",
+      "time": "Earlier"
+    }
+  ],
+
+  "errors": {
+    "loadFailed": "Unable to load feed content."
+  }
+}
